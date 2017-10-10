@@ -6,8 +6,7 @@ public class Matriz_Espiral {
 
     public static void main(String[] args) {
         
-        int i=1,j=1,fila,columna;  
-        //int aux=5;
+        int i=1,j=1,fila,columna;
         int aux=Integer.parseInt(JOptionPane.showInputDialog(null, "Tamaño de matríz:", "Determine la cantidad de filas y columnas",JOptionPane.QUESTION_MESSAGE));
         fila = aux;
         columna=aux;
